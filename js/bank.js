@@ -6,7 +6,7 @@ document.getElementById('login-btn').addEventListener('click', function () {
   const passwordfield = document.getElementById('userPass');
   const userPassword = passwordfield.value;
   if (userEmail == 'omarfaruk@gmail.com' && userPassword == 'birikha') {
-    window.location.href = './bank.html';
+    window.location.href = '../bank.html';
   }
 });
 // update deposit total
